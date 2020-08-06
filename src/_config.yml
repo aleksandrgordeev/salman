@@ -1,0 +1,14 @@
+title: Salman Soofi personal website
+email: salmansoofi@gmail.om
+description: >-
+  This is the personal website of Salaman Soofi, a painter from Pakistan.
+baseurl: ""
+url: "https://cc.agordeev.com"
+
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
