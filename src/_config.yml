@@ -4,7 +4,7 @@ description: >-
   This is the personal website of Salaman Soofi, a painter from Pakistan.
 baseurl:
 url: "https://cc.agordeev.com"
-logo: "/img/salman-twitter-card.jpg"
+logo: https://kulturologia.ru/media/avatar-24_s.jpg
 facebook:
   publisher: "https://www.facebook.com/salmansoofi313/"
 twitter:
@@ -22,7 +22,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: /img/salman-twitter-card.jpg
+      image: https://kulturologia.ru/media/avatar-24_s.jpg
 
 # Build settings
 plugins:
