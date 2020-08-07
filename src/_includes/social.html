@@ -1,0 +1,7 @@
+<div class="social-icons">
+  {% for social in site.data.social %}
+    <a href="{{social.link}}" class="social-link">
+      {% include social-icon.html icon=social.name %}
+    </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,11 @@
+---
+title: Media coverage
+---
+ <section class="exhibitions">
+  <h2 class="editable">Exhibitions</h2>
+  <ul class="media-items">
+    {% for media in site.exhibitions %}
+      {{ media.name }}
+    {% endfor %}
+  </ul>
+ </section>

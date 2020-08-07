@@ -1,10 +1,9 @@
 title: Salman Soofi personal website
-email: salmansoofi@gmail.om
+email: salmansoofi@gmail.com
 description: >-
   This is the personal website of Salaman Soofi, a painter from Pakistan.
-baseurl:
+baseurl: ""
 url: "https://cc.agordeev.com"
-logo: https://kulturologia.ru/media/avatar-24_s.jpg
 facebook:
   publisher: "https://www.facebook.com/salmansoofi313/"
 twitter:
@@ -17,12 +16,15 @@ social:
     - https://www.linkedin.com/in/salman-soofi-21143415
     - https://www.instagram.com/salman_soofi_artist
 
+permalink: pretty
+collections_dir: collections
 defaults:
   -
     scope:
       path: ""
     values:
-      image: https://kulturologia.ru/media/avatar-24_s.jpg
+      image: /img/salman-twitter-card.jpg
+      layout: page
 
 # Build settings
 plugins:
