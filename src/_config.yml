@@ -4,7 +4,21 @@ description: >-
   This is the personal website of Salaman Soofi, a painter from Pakistan.
 baseurl: ""
 url: "https://cc.agordeev.com"
+facebook:
+  publisher: "https://www.facebook.com/salmansoofi313/"
 
+social:
+  name: Salman Soofi
+  links:
+    - https://www.facebook.com/salmansoofi313/
+    - https://www.linkedin.com/in/salman-soofi-21143415
+    - https://www.instagram.com/salman_soofi_artist/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/og-default-image.jpg
 
 # Build settings
 plugins:
