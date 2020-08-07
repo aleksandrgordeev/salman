@@ -8,10 +8,8 @@ logo: "/img/salman-twitter-card.jpg"
 facebook:
   publisher: "https://www.facebook.com/salmansoofi313/"
 twitter:
-  image: "/img/salman-twitter-card.jpg"
   card: summary
   username: salmansoofi
-  
 social:
   name: Salman Soofi
   links:
@@ -20,10 +18,11 @@ social:
     - https://www.instagram.com/salman_soofi_artist
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
     values:
-      image: /img/og-default-image.jpg
+      image: /img/salman-twitter-card.jpg
 
 # Build settings
 plugins:
