@@ -4,8 +4,22 @@ title: Media coverage
  <section class="exhibitions">
   <h2 class="editable">Exhibitions</h2>
   <ul class="media-items">
-    {% for media in site.exhibitions %}
-      {{ media.name }}
+    {% assign sorted = site.exhibitions | sort: 'date' | reverse %}
+    {% for media in sorted %}
+      {{site.collections.exhibitions.image_folder}}
+      <li>
+        {% include media-item.html name=media.name link=media.link image=media.image %}
+      </li>
+    {% endfor %}
+  </ul>
+ </section>
+
+ <section class="media">
+  <h2 class="editable">Media coverage</h2>
+  <ul class="media-items">
+    {% assign sorted = site.media | sort: 'date' | reverse %}
+    {% for media in sorted %}
+      <li>{% include media-item.html name=media.name link=media.link image=media.image %}</li>
     {% endfor %}
   </ul>
  </section>

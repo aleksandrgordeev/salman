@@ -1,10 +1,12 @@
 - name: Home
   link: /
+- name: Paintings
+  link: /paintings
 - name: About me
   link: /about
-- name: Media coverage
+- name: Media
   link: /media
 - name: Blog
-  llink: /blog
+  link: /blog
 - name: Contact
   link: /contact

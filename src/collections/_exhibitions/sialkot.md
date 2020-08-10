@@ -1,4 +1,5 @@
 ---
 name: "Group show at Al Karamah art gallery. Sialkot"
-image: /img/media/exhibition-sialkot.jpg
+image: /img/exhibitions/sialkot.jpg
+date: 2018-01-01
 ---
