@@ -5,3 +5,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
 }
+:nth-child(3n) {
+  margin-right: 0;
+}
+.media-item {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}

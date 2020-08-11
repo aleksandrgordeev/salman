@@ -7,7 +7,7 @@ title: Media coverage
     {% assign sorted = site.exhibitions | sort: 'date' | reverse %}
     {% for media in sorted %}
       {{site.collections.exhibitions.image_folder}}
-      <li>
+      <li class="media-item">
         {% include media-item.html name=media.name link=media.link image=media.image %}
       </li>
     {% endfor %}
@@ -19,7 +19,9 @@ title: Media coverage
   <ul class="media-items">
     {% assign sorted = site.media | sort: 'date' | reverse %}
     {% for media in sorted %}
-      <li>{% include media-item.html name=media.name link=media.link image=media.image %}</li>
+      <li class="media-item">
+        {% include media-item.html name=media.name link=media.link image=media.image %}
+      </li>
     {% endfor %}
   </ul>
  </section>

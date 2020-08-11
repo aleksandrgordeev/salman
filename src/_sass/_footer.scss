@@ -1,6 +1,9 @@
 .site-footer {
   min-height: 50px;
   background-color: $dark-bg-color;
+  height: 70px;
+  padding: 15px 20px;
+  box-sizing: border-box;
 }
 .fullheight {
   .site-footer {

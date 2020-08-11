@@ -1,0 +1,27 @@
+.media-items {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.media-item {
+  margin: 0 auto 40px;
+  padding: 0;
+
+  figure {
+    width: 380px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #cccccc;
+  }
+  figcaption {
+    margin: 15px;
+  }
+  a, a:visited, a:active, a:hover {
+    color: $accent-color;
+  }
+  img {
+    max-width: 380px;
+  }
+}
