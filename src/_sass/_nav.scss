@@ -1,0 +1,21 @@
+.main-nav {
+  background-color: $dark-bg-color;
+}
+.site-nav {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 0;
+  a {
+    color: $inverse-color;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: $nav-height;
+    margin-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+  }
+
+}

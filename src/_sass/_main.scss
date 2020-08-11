@@ -1,0 +1,37 @@
+.to-top {
+  position: fixed;
+  display: inline-block;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 0;
+  background-color: $accent-color;
+  &::before {
+    content: '>';
+    font-weight: bold;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    font-size: 30px;
+    color: $inverse-color;
+    transform: rotate(-90deg);
+  }
+}
+
+.fullheight {
+  .to-top {
+    display: none;
+  }
+}
+
+.social-icons svg {
+  fill: $accent-color;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+  :last-child {
+    margin-right: none;
+  }
+}

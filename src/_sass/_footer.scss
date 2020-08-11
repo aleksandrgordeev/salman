@@ -1,0 +1,9 @@
+.site-footer {
+  min-height: 50px;
+  background-color: $dark-bg-color;
+}
+.fullheight {
+  .site-footer {
+    display: none;
+  }
+}
