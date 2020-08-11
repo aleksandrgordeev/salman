@@ -5,6 +5,9 @@ body {
 }
 main {
   flex: 1;
+  a, a:hover, a:active, a:focus, a:visited {
+    color: $accent-color;
+  }
 }
 .container {
   max-width: 1280px;
