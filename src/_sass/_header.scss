@@ -1,0 +1,35 @@
+.fullheight {
+  .site-header {
+    height: 100vh;
+    background-color: $dark-bg-color;
+    color: $accent-color;
+    position: relative;
+    .header-image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: calc(100vh - #{$nav-height} - 20px);
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+    .motto {
+      font-size: 20px;
+    }
+  }
+  .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+}
+.site-header {
+  display: flex;
+  flex-direction: column;
+}
