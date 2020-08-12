@@ -1,0 +1,16 @@
+@media screen and (max-width: 780px) {
+  .media-item {
+    max-width: 47%;
+    flex-basis: 47%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .media-item {
+    max-width: 98%;
+    flex-basis: 98%;
+  }
+  .container {
+    max-width: 95%;
+  }
+}
