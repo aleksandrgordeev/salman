@@ -21,6 +21,10 @@
   .g-recaptcha {
     margin: 0 auto 20px;
   }
+  .header-image {
+    bottom: auto;
+    top: calc(#{$nav-height} + 10px);
+  }
 }
 
 @media screen and (max-width: 460px) {
