@@ -4,19 +4,29 @@ google_map_height: 300px
 ---
 <section class="contact">
  <h1>Contact me</h1>
-  <form action="/form-success.html">
+  <form action="/form-success.html" method="POST">
     <div class="form-row">
-      <label for="email" class="editable">Email</label>
-      <input type="text" name="email" id="email" required>
-      <label for="name" class="editable">Name</label>
-      <input type="text" name="email" id="name" required>
+      <div class="form-field">
+        <label for="email" >Email</label>
+        <input type="text" name="email" id="email" required>
+      </div>
+      <div class="form-field">
+        <label for="name" >Name</label>
+        <input type="text" name="email" id="name" required>
+      </div>
     </div>
     <div class="form-row">
-      <label for="message" class="editable">Message</label>
-      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      <div class="form-field">
+        <label for="message" >Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
     </div>
+    <input type="hidden" name="_to" value="aleksandr@cloudcannon.com">
+    <input type="hidden" name="_subject" value="Message from the website">
     <div class="form-row">
-      <input type="submit" value="Send" class="button editable">
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <div class="g-recaptcha" data-sitekey="6Ld8vb0ZAAAAAHTpVS6uGPDEwWz84qL0BR8aqlMB"></div>
+      <input type="submit" value="Send" class="button button-contact">
     </div>
   </form>
   {% include google-map.html latitude=-45.8787605 longitude=170.5027976 zoom=17 height=page.google_map_height %}
