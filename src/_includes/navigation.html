@@ -1,7 +1,9 @@
 <nav class="main-nav">
   <ul class="site-nav">
     {% for nav in site.data.navigation %}
-      <li class="site-nav-item"><a href="{{ nav.link }}">{{nav.name}}</a></li>
+      {{ nav.link }}
+      {{ page.url }}
+      <li class="site-nav-item{% if nav.link == page.url %} active{% endif %}"><a href="{{ nav.link }}">{{nav.name}}</a></li>
     {% endfor %}
   </ul>
 </nav>
