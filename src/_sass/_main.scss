@@ -8,6 +8,9 @@ main {
   a, a:hover, a:active, a:focus, a:visited {
     color: $accent-color;
   }
+  p {
+    line-height: normal;
+  }
 }
 .container {
   max-width: 1280px;
@@ -48,5 +51,37 @@ main {
   margin-right: 10px;
   :last-child {
     margin-right: none;
+  }
+}
+.form-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.form-field {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+   margin-right: 20px;
+   &:last-child {
+     margin-right: 0;
+   }
+  label {
+    margin-bottom: 10px;
+  }
+  input, textarea {
+    padding: 10px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+  }
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $accent-color;
+  color: $inverse-color;
+  border: 1px solid darken($accent-color, 25%);
+  &:hover {
+    cursor: pointer;
+    background-color: lighten($accent-color, 10%);
   }
 }
