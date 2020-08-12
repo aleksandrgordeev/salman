@@ -1,12 +1,12 @@
 - name: Home
   link: /
 - name: Paintings
-  link: /paintings
+  link: /paintings/
 - name: About me
-  link: /about
+  link: /about/
 - name: Media
-  link: /media
+  link: /media/
 - name: Blog
-  link: /blog
+  link: /blog/
 - name: Contact
-  link: /contact
+  link: /contact/

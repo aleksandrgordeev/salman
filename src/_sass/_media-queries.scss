@@ -1,0 +1,38 @@
+@media screen and (max-width: 1320px) {
+  .container {
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .media-item {
+    max-width: 47%;
+    flex-basis: 47%;
+  }
+  .form-field {
+    margin-right: 0;
+  }
+  .form-row {
+    flex-direction: column;
+  }
+  .button-contact {
+    margin-right: auto;
+  }
+  .g-recaptcha {
+    margin: 0 auto 20px;
+  }
+  .header-image {
+    bottom: auto;
+    top: calc(#{$nav-height} + 10px);
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .media-item {
+    max-width: 98%;
+    flex-basis: 98%;
+  }
+  .container {
+    max-width: 95%;
+  }
+}
