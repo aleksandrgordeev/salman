@@ -2,19 +2,10 @@
 layout: default
 body_class: fullheight
 ---
-<header class="site-header">
+<header>
   {% include navigation.html %}
-  <img src="/img/salman-soofi-home.jpg" alt="Salman Soofi" class="editable header-image">
-  <div class="header-wrapper">
-    <h1 class="editable">Salman Soofi</h1>
-
-    <p class="motto editable">seeing through closed eyes</p>
-    {% include social.html %}
-    <p class="disclaimer editable">Disclaimer: while painting my subconscious connects with my hands and I paint unconsciously</p>
-  </div>
 </header>
-<main>
-  {{ content }}
+<main class="home">
+  {{content}}
 </main>
 
-{% include footer.html %}
