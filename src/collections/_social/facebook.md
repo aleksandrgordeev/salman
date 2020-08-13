@@ -1,4 +1,4 @@
 ---
-social-media:
-link:
+social-media: Facebook
+link: 'https://facebook.com'
 ---
