@@ -1,4 +1,4 @@
 ---
-smedia:
+social-media:
 link:
 ---
