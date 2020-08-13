@@ -28,7 +28,7 @@ collections:
   social-media:
     _hide_content: true
 
-social-medias:
+medias:
   - Facebook
   - LinkedIn
   - Instagram
