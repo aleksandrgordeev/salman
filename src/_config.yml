@@ -25,6 +25,13 @@ collections:
     _hide_content: true
   media:
     _hide_content: true
+  social:
+    _hide_content: true
+
+social-medias:
+  - Facebook
+  - LinkedIn
+  - Instagram
 
 defaults:
   -
