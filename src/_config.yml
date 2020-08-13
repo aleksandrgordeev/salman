@@ -37,7 +37,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: /img/salman-twitter-card.jpg
+      image: /img/twitter-card.jpg
       layout: page
 
 # Build settings
