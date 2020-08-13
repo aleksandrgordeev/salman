@@ -70,7 +70,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 4.1.1)
+  jekyll (~> 4.1)
   jekyll-archives
   jekyll-feed
   jekyll-paginate
