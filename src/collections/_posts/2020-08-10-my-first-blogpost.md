@@ -1,7 +1,7 @@
 ---
 title: My first blogpost
 date: 2020-08-10 00:00:00
-featured_image: /img/featured/my-first-blogpost.png
+image: /img/featured/my-first-blogpost.png
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Urna nec tincidunt praesent semper feugiat nibh. Vel orci porta non pulvinar neque laoreet. Libero justo laoreet sit amet cursus sit amet. Nulla facilisi cras fermentum odio. Pulvinar elementum integer enim neque volutpat ac tincidunt. Morbi quis commodo odio aenean sed adipiscing diam. Nam aliquam sem et tortor. Sed libero enim sed faucibus turpis. Leo a diam sollicitudin tempor id. Sollicitudin nibh sit amet commodo. Elementum nibh tellus molestie nunc non blandit massa. Non tellus orci ac auctor augue. Platea dictumst vestibulum rhoncus est pellentesque. Donec et odio pellentesque diam volutpat commodo sed.
