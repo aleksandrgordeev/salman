@@ -1,6 +1,6 @@
 ---
 title:
-date: site.time
+date: site.data site.time
 categories:
   - art
 image:
