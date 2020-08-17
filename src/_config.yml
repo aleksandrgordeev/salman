@@ -33,6 +33,9 @@ social-medias:
   - LinkedIn
   - Instagram
 
+_source_editor:
+  tab_size: 2
+
 defaults:
   -
     scope:
