@@ -1,3 +1,55 @@
 ---
 title: Paintings
+javascript_code_block: |
+  function sayHello() {
+      console.log("Hi there!");
+  }
+
+  sayHello();
+example_colour: '#fefefe'
+office_email: 'office@mail.ru'
+example_html: |
+  <p>This paragraph has <em>emphasis</em> and <strong>strength</strong>.</p>
+  <ol>
+    <li>Walk</li>
+    <li>Run</li>
+  </ol>
+  <p>Linking to <a href="/">index</a>.</p>
+example_markdown: |
+  ### Animals
+
+  - Dogs
+  - Cats
+
+  > It's raining cats and dogs.
+exhibitions:
+attached_document:
+staff:
+  - Bill
+  - Ben
+  - Badger
 ---
+<h1>Examples of input fields</h1>
+
+<h2>Code block</h2>
+<pre>
+  {{ page.javascript_code_block }}
+</pre>
+
+<h2 style="color: {{ page.example_colour }}">Frontmatter colour exapmle</h2>
+<p>
+  Email example: <br>
+  <a href="mailto:{{ page.office_email }}">{{ page.office_email }}</a>
+</p>
+<h2>Some exapmle html</h2>
+{{ page.example_html }}
+<h2>Markdown example</h2>
+{{ page.example_markdown | markdownify }}
+<h2>Link to attached document</h2>
+<a href="{{ page.attached_document }}">Download document</a>
+<h2>Staff schedule</h2>
+<ul>
+  {% for name in page.staff %}
+    <li>{{ name }}</li>
+  {% endfor %}
+</ul>
