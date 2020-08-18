@@ -50,6 +50,8 @@ defaults:
       image: /img/twitter-card.jpg
       layout: page
 
+uploads_dir: "/uploads/:year/:month/:day/:title"
+
 # Build settings
 plugins:
   - jekyll-feed

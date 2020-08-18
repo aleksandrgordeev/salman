@@ -3,6 +3,10 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 main {
   flex: 1;
   a, a:hover, a:active, a:focus, a:visited {
