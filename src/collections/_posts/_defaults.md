@@ -1,6 +1,6 @@
 ---
 title:
-date: page.date
+date:
 categories:
   - art
 image:
