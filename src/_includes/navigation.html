@@ -1,6 +1,6 @@
+ <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_data/navigation/" class="button"><strong>✎</strong>Manage Navigation</a></p>
 <nav class="main-nav">
-  <p class="editor-link" style="text-align: center;"><a href="cloudcannon:_data/navigation/" class="button"><strong>✎</strong>Manage Navigation</a></p>
-    {% assign url = page.url %}
+     {% assign url = page.url %}
     {% for nav in site.data.navigation %}
       <li class="site-nav-item{% if nav.link == page.url %} site-nav-active{% endif %}"><a href="{{ nav.link }}">{{nav.name}}</a></li>
     {% endfor %}
