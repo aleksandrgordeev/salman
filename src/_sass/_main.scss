@@ -89,3 +89,12 @@ main {
     background-color: lighten($accent-color, 10%);
   }
 }
+
+.editor-link {
+  display: none;
+  color: black;
+}
+
+.cms-editor-active .editor-link {
+  display: block;
+}
