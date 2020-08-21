@@ -92,7 +92,9 @@ main {
 
 .editor-link {
   display: none;
-  color: black;
+  a, a:focus, a:active, a:visited {
+    color: white;
+  }
 }
 
 .cms-editor-active .editor-link {
