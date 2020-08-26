@@ -2,5 +2,8 @@
 name:
 image:
 date:
-link:
+links:
+  figma:
+  web:
+  sketch:
 ---
