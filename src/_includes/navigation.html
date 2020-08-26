@@ -1,8 +1,10 @@
 <nav class="main-nav">
-  <p class="editor-link" style="text-align: center;"><a href="cloudcannon:_data/navigation/" class="button"><strong>✎</strong>Manage Navigation</a></p>
+  <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_data/" class="button"><strong>✎</strong>Manage Navigation</a></p>
+  <ul class="site-nav" data-cms-editor-link="cloudcannon:data/navigation">
     {% assign url = page.url %}
     {% for nav in site.data.navigation %}
       <li class="site-nav-item{% if nav.link == page.url %} site-nav-active{% endif %}"><a href="{{ nav.link }}">{{nav.name}}</a></li>
     {% endfor %}
   </ul>
 </nav>
+
