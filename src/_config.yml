@@ -50,7 +50,6 @@ defaults:
       image: /img/twitter-card.jpg
       layout: page
       
-  defaults:
   - scope:
       path: ''
       type: 'pages'
