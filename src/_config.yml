@@ -81,7 +81,7 @@ _array_structures:
       - label: Icon
         icon: image
         value:
-          image: /assets/img/cloudcannon.svg
+          image:
             accepts_mime_types:
               - "image/png"
               - "image/svg+xml"
