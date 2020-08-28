@@ -85,10 +85,11 @@ defaults:
               icon: image
               value:
                 image: /assets/img/cloudcannon.svg
+                  accepts_mime_types:
+                    - "image/png"
+                    - "image/svg+xml"
                 description:
-                _accepts_mime_types:
-                  - "image/png"
-                  - "image/svg+xml"
+                
 
 
 uploads_dir: "/uploads/:year/:month/:day/:title"
