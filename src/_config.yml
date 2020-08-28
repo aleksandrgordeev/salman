@@ -89,6 +89,17 @@ defaults:
               value:
                 image: /assets/img/cloudcannon.svg
                 description:
+        services:
+          values:
+            - label: Services List
+              value:
+                _id: services_list
+                name:
+                values:
+                  - label: Service
+                    value:
+                      _id: services_item
+                      name:
                 
 
 
