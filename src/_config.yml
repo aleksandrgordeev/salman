@@ -87,7 +87,11 @@ _array_structures:
     values:
       - label: Services
         value:
-          lkadsff:
+          service_list:
+            values:
+              - label: Service
+                value:
+                  service:
 
 uploads_dir: "/uploads/"
 
