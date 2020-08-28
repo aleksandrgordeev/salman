@@ -89,9 +89,6 @@ _array_structures:
         value:
           service_list:
           values:
-            - label: Service
-              value:
-                service:
 
 uploads_dir: "/uploads/"
 
