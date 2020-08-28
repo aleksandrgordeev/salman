@@ -86,7 +86,7 @@ defaults:
               value:
                 image: /assets/img/cloudcannon.svg
                 description:
-                accepts_mime_types:
+                _accepts_mime_types:
                   - "image/png"
                   - "image/svg+xml"
 
