@@ -100,7 +100,7 @@ defaults:
                   values:
                     - label: Service
                       value:
-                        -
+                        - ""
 
 
 
