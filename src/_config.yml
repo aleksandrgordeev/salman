@@ -78,13 +78,9 @@ defaults:
 _array_structures:
   techs:
     values:
-      - label: Icon
-        icon: image
+      - label: Tech
         value:
-          image:
-            accepts_mime_types:
-              - "image/png"
-              - "image/svg+xml"
+          icon_image::
           description:
   services:
     values:
@@ -97,7 +93,7 @@ _array_structures:
             values:
               - label: Service
                 value:
-                  - ""
+                  - " "
 
 
 
