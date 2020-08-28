@@ -92,6 +92,7 @@ defaults:
         services:
           values:
             - label: Services
+              description: Services list
               value:
                 _id: services_list
                 name:
