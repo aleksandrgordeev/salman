@@ -74,33 +74,30 @@ defaults:
               value:
                 url:
                 title:
-  - scope:
-      path: ''
-      type: 'pages'
+                
+_array_structures:
+  techs:
     values:
-      _array_structures:
-        techs:
-          values:
-            - label: Icon
-              icon: image
-              accepts_mime_types:
-                - "image/png"
-                - "image/svg+xml"
-              value:
-                image: /assets/img/cloudcannon.svg
-                description:
-        services:
-          values:
-            - label: Services
-              description: Services list
-              value:
-                _id: services_list
-                name:
-                service_list:
-                  values:
-                    - label: Service
-                      value:
-                        - ""
+      - label: Icon
+        icon: image
+        value:
+          image: /assets/img/cloudcannon.svg
+            accepts_mime_types:
+              - "image/png"
+              - "image/svg+xml"
+          description:
+  services:
+    values:
+      - label: Services
+        description: Services list
+        value:
+          _id: services_list
+          name:
+          service_list:
+            values:
+              - label: Service
+                value:
+                  - ""
 
 
 
