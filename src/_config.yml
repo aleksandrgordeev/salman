@@ -74,6 +74,18 @@ defaults:
               value:
                 url:
                 title:
+  - scope:
+      path: ''
+      type: 'pages'
+    values:
+      _array_structures:
+        techs:
+          values:
+            - label: Icon
+              icon: image
+              value:
+                image: /assets/img/cloudcannon.svg
+                description:
 
 
 uploads_dir: "/uploads/:year/:month/:day/:title"
