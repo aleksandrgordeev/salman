@@ -97,10 +97,10 @@ defaults:
                 name:
                 service_list:
                   values:
-                    - label: Service
+                    - label: Services
                       value:
                         _id: service
-                        service:
+                        name:
 
 
 
