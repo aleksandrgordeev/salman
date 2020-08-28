@@ -83,11 +83,11 @@ defaults:
           values:
             - label: Icon
               icon: image
+              accepts_mime_types:
+                - "image/png"
+                - "image/svg+xml"
               value:
                 image: /assets/img/cloudcannon.svg
-                _accepts_mime_types:
-                  - "image/png"
-                  - "image/svg+xml"
                 description:
                 
 
