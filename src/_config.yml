@@ -94,7 +94,11 @@ defaults:
             - label: Services List
               value:
                 _id: services_list
-                service:
+                service_list:
+                  - label: Service
+                    value:
+                      _id: service
+                      service:
 
 
 
