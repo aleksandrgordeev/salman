@@ -80,8 +80,8 @@ _array_structures:
     values:
       - label: Tech
         value:
-          icon_image::
-          description:
+          image::
+          name:
   services:
     values:
       - label: Services
