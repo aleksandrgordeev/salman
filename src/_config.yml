@@ -86,12 +86,6 @@ _array_structures:
   services:
     values:
       - label: Services
-        value:
-          name:
-          - values:
-            - label: Sevice
-              value:
-                name:
 
 uploads_dir: "/uploads/"
 
