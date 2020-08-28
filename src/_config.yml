@@ -79,22 +79,18 @@ _array_structures:
   techs:
     values:
       - label: Tech
+        icon: image
         value:
-          image::
+          image:
           name:
   services:
     values:
       - label: Services
         description: Services list
         value:
-          _id: services_list
           name:
           service_list:
             values:
-              - label: Service
-                value:
-                  - " "
-
 
 
 uploads_dir: "/uploads/"
