@@ -97,7 +97,7 @@ _array_structures:
 
 
 
-uploads_dir: "/uploads/:year/:month/:day/:title"
+uploads_dir: "/uploads/"
 
 # Build settings
 plugins:
