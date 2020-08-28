@@ -88,11 +88,10 @@ _array_structures:
       - label: Name
         value:
           name:
-      - label: Services
-        values:
-          - label: Service
-            value:
-              service:
+          values:
+            - label: Service
+              value:
+                service:
 
 uploads_dir: "/uploads/"
 
