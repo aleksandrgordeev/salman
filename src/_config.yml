@@ -91,7 +91,7 @@ _array_structures:
           values:
             - label: Service
               value:
-                service:
+                name:
 
 uploads_dir: "/uploads/"
 
