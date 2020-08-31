@@ -75,14 +75,7 @@ defaults:
                 url:
                 title:
                 
-_array_structures:
-  techs:
-    values:
-      - label: Tech
-        icon: image
-        value:
-          image:
-          name:
+
 
 uploads_dir: "/uploads/"
 
